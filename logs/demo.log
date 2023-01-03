@@ -1,0 +1,11 @@
+[2023-01-03T18:27:46.046Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoApplication using Java 1.8.0_333 on LAPTOP-HN53EJPH with PID 26464 (C:\Users\moshenglu\workspace\demo\target\classes started by moshenglu in C:\Users\moshenglu\workspace\demo)
+[2023-01-03T18:27:46.046Z] [org.springframework.boot.SpringApplication] [main] [631] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-01-03T18:27:48.048Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2023-01-03T18:27:48.048Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8081"]
+[2023-01-03T18:27:48.048Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-01-03T18:27:48.048Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.70]
+[2023-01-03T18:27:49.049Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-01-03T18:27:49.049Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 2932 ms
+[2023-01-03T18:27:49.049Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8081"]
+[2023-01-03T18:27:49.049Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path '/demo'
+[2023-01-03T18:27:49.049Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoApplication in 4.383 seconds (JVM running for 5.296)
