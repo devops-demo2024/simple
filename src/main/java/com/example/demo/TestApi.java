@@ -12,7 +12,7 @@ import java.util.Random;
 @RestController
 public class TestApi {
 
-    private static final int MIN_VALUE = 250;
+    private static final int MIN_VALUE = 200;
     private static final int MAX_VALUE = 500;
     @PostMapping(value = "/testApi")
     public ResponseEntity<Object> testApi() throws InterruptedException {
