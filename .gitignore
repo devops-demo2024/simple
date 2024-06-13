@@ -2,6 +2,7 @@ HELP.md
 target/
 logs/
 tomcat/
+resource/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
