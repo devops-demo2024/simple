@@ -47,7 +47,9 @@ git push
 ```
 > After code is pushed, message 'jenkins notify successfully' means jenkins pipeline is triggered.
 ![](./assets/Code-2.jpg)
+
 > Go to jenkins and check if pipeline is started.
 ![](./assets/Pipeline-1.jpg)
+
 > Go to kibana to monitor the traffic.
 ![](./assets/Traffic-1.jpg)
