@@ -12,7 +12,6 @@ cd ~
 ~/kibana/start.sh
 ~/filebeat/start.sh
 nginx
-
 ```
 
 ## Open Jenkins in browser
@@ -21,19 +20,10 @@ Login ```http://192.168.56.104:8002/job/demo-pipeline/``` via app/123456 and ope
 ## Open Kibana in browser
 Login ```http://192.168.56.104:8010/app/discover``` to monitor the application traffic
 
-## Run Jmeter
-Follow command to launch Jmeter:
-```
-cd ~/jmeter
-./bin/jmeter -n -t demo.jmx 
-```
-> Use CTL+C to exit Jmeter when demo completed
-
 ## Update code to trigger jenkins
 Following commands to update sample code:
 > Use vi to change the MIN_VALUE to a digit between 200 and 500.
 ```
-git clone 192.168.56.104:demo.git
 cd demo
 vi src/main/java/com/example/demo/TestApi.java 
 ```
@@ -53,3 +43,12 @@ git push
 
 > Go to kibana to monitor the traffic.
 ![](./assets/Traffic-1.jpg)
+
+
+## Run Jmeter
+Follow command to launch Jmeter:
+```
+cd ~/jmeter
+./bin/jmeter -n -t demo.jmx 
+```
+> Use CTL+C to exit Jmeter when demo completed

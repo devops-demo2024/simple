@@ -177,6 +177,7 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ""
 
 Following commands to install gitolite use the ssh key generate above:
 ```
+cd ~
 mkdir -p ~/bin
 git clone https://github.com/sitaramc/gitolite
 gitolite/install -ln ~/bin 
@@ -834,8 +835,13 @@ sudo useradd -m -s /bin/bash appuser
 echo -e '123456\n123456' | sudo passwd appuser
 sudo usermod -aG docker appuser
 newgrp docker
+```
+Following command to copy ssh public key of app to appuser
+```
 ssh-copy-id appuser@192.168.56.104
-
+```
+Folowing commands to install docker for appuser
+```
 ssh appuser@192.168.56.104
 
 mkdir -p ~/apps/demo
