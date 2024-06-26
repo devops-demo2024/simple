@@ -23,6 +23,10 @@ Login ```http://192.168.56.104:8010/app/discover``` to monitor the application t
 ## Update code to trigger jenkins
 Following commands to update sample code:
 > Use vi to change the MIN_VALUE to a digit between 200 and 500.
+> vi instruction:
+> press i to enter edit mode in vi 
+> press esc to exit edit mode 
+> type :wq to save and quit vi
 ```
 cd demo
 vi src/main/java/com/example/demo/TestApi.java 
@@ -52,3 +56,7 @@ cd ~/jmeter
 ./bin/jmeter -n -t demo.jmx 
 ```
 > Use CTL+C to exit Jmeter when demo completed
+
+## Shutdown server
+After demo completed, shutdown the server in virtualbox
+![](./assets/Shutdown.jpg)
