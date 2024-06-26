@@ -1,3 +1,14 @@
+## Table of Content
+<!-- TOC -->
+  * [Requisites](#requisites)
+  * [Start DevOps Software](#start-devops-software)
+  * [Open Jenkins in browser](#open-jenkins-in-browser)
+  * [Open Kibana in browser](#open-kibana-in-browser)
+  * [Update code to trigger jenkins](#update-code-to-trigger-jenkins)
+  * [Run Jmeter](#run-jmeter)
+  * [Shutdown server](#shutdown-server)
+<!-- TOC -->
+
 
 ## Requisites
 Refer to [Installation Guide](Installation.md) to install and initialize the demo devops environment.
